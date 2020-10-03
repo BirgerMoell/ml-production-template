@@ -1,0 +1,1 @@
+curl -d "{\"label\":\"dog\", \"image_url\": \"https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80\"}" -H "Content-Type: application/json" 127.0.0.1:8000/predict
